@@ -1,21 +1,27 @@
-Here’s the corrected and polished version of your assignment guidelines:
-
----
 
 ## Assignment Guidelines
 
-### GitHub Link   [Documentation](https://mantine.dev/guides/vite/)
+### GitHub Link   [Link](https://github.com/adityas-ops/assign.git)
+
+
+### screenshots
+
+#### Table 1
+![Table 1](public/table1.png)
+
+#### Table 2
+![Table 2](public/table2.png)
+
 
 ### How to Run This Project Locally?
-
 1. **Clone the Repository**  
    ```bash
-   git clone <GitHub repository link>
+   git clone https://github.com/adityas-ops/assign.git
    ```
 
 2. **Navigate to the Assignment Directory**  
    ```bash
-   cd assignment
+   cd assign
    ```
 
 3. **Install Dependencies**  

@@ -23,9 +23,13 @@ function Table1() {
       });
     });
 
+    // console.log('groupedByYear', groupedByYear);
+
     // Create aggregated data
     return Object.keys(groupedByYear).map((year) => {
       const crops = groupedByYear[year];
+
+      // console.log("crops", crops);
 
       // Calculate both max and min production crops in a single iteration
       let maxProductionCrop = crops[0];

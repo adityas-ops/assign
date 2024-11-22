@@ -31,8 +31,8 @@ function Table2() {
       const { yieldSum, areaSum, count } = groupedByCrop[crop];
       return {
         Crop: crop,
-        AvgYield: parseFloat((yieldSum / count).toFixed(3)), // Average Yield (rounded to 3 decimal places)
-        AvgCultivationArea: parseFloat((areaSum / count).toFixed(3)), // Average Cultivation Area (rounded to 3 decimal places)
+        AvgYield: parseFloat((yieldSum / count).toFixed(3)), 
+        AvgCultivationArea: parseFloat((areaSum / count).toFixed(3)), 
       };
     });
   }, [dataJson]); // Recalculate only if dataJson changes
